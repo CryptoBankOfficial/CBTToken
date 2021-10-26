@@ -23,7 +23,7 @@ abstract contract BlackList is Ownable {
 
 contract CBTToken is ERC20, BlackList {
     constructor() ERC20("Crypto Bank Token", "CBT") {
-        _mint(_msgSender(), 770e9);
+        _mint(_msgSender(), 770e9 ether);
     }
 
     function mint(address to, uint256 amount) external onlyOwner {
