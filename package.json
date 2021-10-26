@@ -1,0 +1,19 @@
+{
+  "name": "cbt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "truffle-plugin-verify": "^0.5.15"
+  }
+}

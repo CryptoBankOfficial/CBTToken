@@ -1,2 +1,2 @@
-# CBTToken
-CBT Token Solidity
+# CBTToken V1.0
+CBT Token [Solidity]
