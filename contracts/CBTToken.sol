@@ -39,7 +39,7 @@ contract CBTToken is ERC20, BlackList {
         address to,
         uint256 amount
     ) internal view override(ERC20) {
-        require(amount > 0, "Cannot transfer zero tokens.");
+        require(amount > 0, "Cannot transfer zero tokens");
         require(!isBlackListed(from), "Sender is on blacklist");
         require(!isBlackListed(to), "Receiver is on blacklist");
     }
